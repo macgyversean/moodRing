@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const moodInput = moodForm.querySelector("input[name=mood]:checked");
     myMood.innerText = moodInput.value;
     switch (moodInput.value) {
-      case "Very happy":
+      case "very happy":
         toggleClass(myMood, "very-happy-mood", [
           "happy-mood",
           "not-so-happy-mood",
